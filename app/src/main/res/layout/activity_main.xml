@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:layout_margin="16dp"
-        app:cardBackgroundColor="#0047FF"
+        app:cardBackgroundColor="#3469F3"
         app:cardCornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -163,6 +163,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_mini_menu"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_margin="16dp"
@@ -174,8 +175,8 @@
             android:id="@+id/cv_detail_keuangan"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            app:cardCornerRadius="4dp"
             android:layout_margin="10dp"
+            app:cardCornerRadius="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -199,8 +200,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_regular"
                     android:text="Detail Keuangan"
-                    android:textSize="10sp"
                     android:textAlignment="center"
+                    android:textSize="10sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -212,9 +213,9 @@
             android:id="@+id/cv_detail_keuangan2"
             android:layout_width="75dp"
             android:layout_height="75dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginStart="20dp"
             app:cardCornerRadius="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cv_detail_keuangan"
@@ -252,9 +253,9 @@
             android:id="@+id/cv_detail_keuangan3"
             android:layout_width="75dp"
             android:layout_height="75dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginStart="20dp"
             app:cardCornerRadius="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cv_detail_keuangan2"
@@ -292,9 +293,9 @@
             android:id="@+id/cv_detail_keuangan4"
             android:layout_width="75dp"
             android:layout_height="75dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginStart="20dp"
             app:cardCornerRadius="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cv_detail_keuangan3"
@@ -328,4 +329,44 @@
 
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Riwayat Transaksi"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_mini_menu" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_transaksi_keuangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_riwayat" />
+
+    <TextView
+        android:id="@+id/tv_catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Catatan Penting"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_transaksi_keuangan" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_catatan" />
 </androidx.constraintlayout.widget.ConstraintLayout>
