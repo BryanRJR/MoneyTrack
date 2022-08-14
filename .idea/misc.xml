@@ -3,10 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_add.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_dashboard.xml" value="0.146" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_dashboard_false.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_down.xml" value="0.146" />
         <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_favorite.xml" value="0.2475" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_home.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_home_false.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_home_true.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_list.xml" value="0.147" />
         <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_order_false.xml" value="0.2475" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_order_true.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_post_add.xml" value="0.146" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_post_add_true.xml" value="0.147" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_up.xml" value="0.146" />
         <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/drawable/ic_wishlist_false.xml" value="0.124" />
-        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ASUS/Desktop/MoneyTrack.App/MoneyTrack/app/src/main/res/menu/menu_main.xml" value="0.253125" />
         <entry key="..\:/Users/User/Documents/Android Project/MoneyTrack/app/src/main/res/font/inter.xml" value="0.21388888888888888" />
