@@ -5,5 +5,5 @@
         android:drawable="@drawable/ic_down_false"/>
     <item
         android:state_checked="true"
-        android:drawable="@drawable/ic_dashboard_true"/>
+        android:drawable="@drawable/ic_down_true"/>
 </selector>

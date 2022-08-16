@@ -21,19 +21,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initBottomNavigation() {
-        binding.bnvMain.setOnItemSelectedListener { item ->
+        binding.bottomNavigationView.setOnItemSelectedListener { item ->
             when(item.itemId){
-                R.id.menu_main_home -> {
+                R.id.menu_main_dashboard -> {
                     replaceFragment(HomeFragment())
                     true
                 }
-                R.id.menu_main_wishlist -> {
+                R.id.menu_main_income -> {
+                    true
+                }
+                R.id.menu_main_outcome -> {
                     true
                 }
                 R.id.menu_main_profile -> {
-                    true
-                }
-                R.id.menu_main_order -> {
                     true
                 }
                 else -> false
